@@ -2,7 +2,19 @@ h2{
     font-size: 18px;
     font-family: var(--f);
     color: var(--noir);
-    margin: 15px;
+    margin-top: -140px;
+    margin-left: 15px;
+    background-color: var(--blanc);
+    opacity: 80%;
+    width: 40%;
+    padding: 30px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 0px;
+}
+
+body{
+    background-color: var(--blanc);
 }
 
 p{
@@ -69,4 +81,8 @@ li{
 
 .bleu{
     background-color: var(--bleu-pale);
+}
+
+.annonce{
+    padding-bottom: 20px;
 }

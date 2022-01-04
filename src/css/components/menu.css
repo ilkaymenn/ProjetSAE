@@ -16,7 +16,7 @@
   .nav-toogle-bar::after
   {
     content: "";
-    background-color: var(--iconsbleu);
+    background-color: var(--blanc);
     width: 100%;
     height: 6px;
     position: absolute;
@@ -33,21 +33,17 @@
 
   
   .menu-open .nav-toogle-bar{   
-    transform: rotate(80deg);
+    transform: rotate(135deg);
     background-color: var(--iconsbleu);
+  }
+  .menu-open .nav-toogle-bar::after,
+  .menu-open .nav-toogle-bar::before{
+
+    background-color: var(--iconsbleu);
+    transform: rotate(90deg);
     top: 0;
   }
 
-  .menu-open .nav-toogle-bar::before{
-    visibility: hidden;
-    transform: rotate(80deg);
-  }
-  
-  .menu-open .nav-toogle-bar::after {
-    transform: rotate(80deg);
-    background-color: var(--iconsbleu);
-    top: 0;
-  }
   
   .menu{
     background-color: var(--blanc);

@@ -1,7 +1,6 @@
 footer{
     background-color: var(--noir);
+    padding: 2px;
+    margin: 0px;
 }
 
-.bas{
-    color: var(--blanc);
-}

@@ -1,0 +1,27 @@
+header {
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+        
+    align-items: center;
+    min-height: 80px;
+    
+    background-color: var(--bleu);
+    font-family: var(--m);
+    
+    color: var(--blanc);
+}
+
+.titre{
+    font-size: 14px;
+    align-items: center;    
+}
+
+.header__start{
+    padding: 1em;
+}
+
+

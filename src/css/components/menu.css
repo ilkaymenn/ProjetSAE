@@ -1,0 +1,125 @@
+.nav-toogle{
+    /* background-color: var(--peche); */
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+  }
+  
+  .nav-toogle-bar,
+  .nav-toogle-bar::before,
+  .nav-toogle-bar::after
+  {
+    content: "";
+    background-color: var(--iconsbleu);
+    width: 100%;
+    height: 6px;
+    position: absolute;
+    left: 0;
+    transition: all .4s ease-in-out;
+  }
+  .nav-toogle-bar::before{
+    top: -10px; 
+  }
+  
+  .nav-toogle-bar::after{
+    top: 10px; 
+  }
+
+  
+  .menu-open .nav-toogle-bar{   
+    transform: rotate(80deg);
+    background-color: var(--iconsbleu);
+    top: 0;
+  }
+
+  .menu-open .nav-toogle-bar::before{
+    visibility: hidden;
+    transform: rotate(80deg);
+  }
+  
+  .menu-open .nav-toogle-bar::after {
+    transform: rotate(80deg);
+    background-color: var(--iconsbleu);
+    top: 0;
+  }
+  
+  .menu{
+    background-color: var(--blanc);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(100vw);
+    transition: all .4s;
+    z-index: 1;
+  }
+  
+  .menu-open .menu{
+    transform: translateX(0);
+  }
+  
+  .menu-open,
+  .menu-open body{
+    overflow: hidden;
+  }
+  .menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 2.3rem;
+    text-transform: uppercase;
+  }
+  .menu li{
+    margin-bottom: 30px;
+    transform: translateX(30px);
+    opacity: 0;
+    transition: all .3s ease;
+    border: solid;
+    border-width: 3px;
+    border-color: var(--noir);
+
+  }
+  
+  .menu a{
+    color: black;
+    font-size:var(--sous-titre);
+    align-items: center;
+    
+  
+  }
+  .menu-open .menu li{
+    transform: translateX(0);
+    opacity: 1;
+  }
+  .menu-open .menu li:nth-child(n+1) {transition-delay: .3s; }
+  .menu-open .menu li:nth-child(n+2) {transition-delay: .4s; }
+  .menu-open .menu li:nth-child(n+3) {transition-delay: .5s; }
+  .menu-open .menu li:nth-child(n+4) {transition-delay: .6s; }
+  .menu-open .menu li:nth-child(n+5) {transition-delay: .7s; }
+  .menu-open .menu li:nth-child(n+6) {transition-delay: .8s; }
+  
+
+  .menu__item{
+    font-family: var(--m);
+    font-weight: bold;
+
+  }
+  
+  /* .ligne{
+    background-color: var(--noir);
+    width: 80%;
+    top: auto;
+    align-items: center;
+    height: 2px;
+    left: 0;
+} */

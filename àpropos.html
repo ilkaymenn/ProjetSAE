@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://animejs.com/lib/anime.min.js"></script>
+    <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
+	<script src="fonction.js"></script> -->
+    <title>La pollution de l'air :<br>
+        c'est quoi ?</title>
+
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+
+
+<body class="">
+    <header class="header"> 
+        <a class="header__start" href="index.html"><img src="assets/icones/manon1.webp" alt="Logo du site web"></a>
+        <h1 class="titre">Changez vos habitudes.</h1>    
+    
+     <div class="nav-toogle"  onclick="document.documentElement.classList.toggle('menu-open')">
+        <div class="nav-toogle-bar"></div>
+    </div>
+
+
+            <nav class="menu">
+                <!-- <div class="ligne" ></div> -->
+                    <ul>
+                            <li class="menu__item"><a class="menu__link" href="article1.html">Super-héros ou super-pollueur ?</a></li>
+                            <li class="menu__item"><a class="menu__link" href="article2.html">La pollution de l'air : c'est quoi ?</a></li>
+                            <li class="menu__item"><a class="menu__link" href="article3.html">Agir pour notre planète: les solutions</a></li>
+                            <li class="menu__item"><a class="menu__link" href="àpropos.html">À propos</a></li>
+                            
+                    </ul>
+            </nav> 
+    </header>
+    
+    
+    <main>
+        <h2>À propos</h2>
+            <h3>QUI SUIS-JE ?</h3>
+                <p>Je m’appelle Lucie PierrePolJ. Je suis
+                    étudiante en première année en
+                    DUT MMI (multimédia et métiers de
+                    l’internet) à Montbéliard. La création
+                    de ce site web est due à un projet
+                    semestriel sur le thème :
+                     « le bilan carbone d’un super héros ».
+                    J’ai choisi Captain America, une
+                    référence dans le monde des Marvel.
+                    Un super héros est source
+                    d’admiration pour les adolescents.
+                    C’est donc un thème plutôt attractif
+                    pour eux.<br><br>
+                    
+                    L’écologie est un thème particulièrement
+                    intéressant et actuel. Les catastrophes
+                    écologiques se répètent sans cesse. Nous avons
+                    besoin d’une prise de conscience. Ce projet permet
+                    d’aborder une question sérieuse tout en intéressant
+                    la jeune génération.
+                    La pollution de l’air est une des causes du
+                    réchauffement climatique. Nous avons le devoir de
+                    repenser nos déplacements autrement. Beaucoup
+                    de solutions existent et j’ai voulu les mettre en avant
+                    ici. Chacun peut agir à son échelle. Faites comme
+                    Captain America, changez vos habitudes.</p>
+
+            <h3>ME CONTACTER</h3>
+                <form action="/page-de-traitement" method="post">
+                    <div>
+                        <label for="name">Nom</label>
+                        <input type="text" id="name" name="user_name">
+                    </div>
+                    <div>
+                        <label for="name">Prénom</label>
+                        <input type="text" id="surname" name="user_surname">
+                    </div>
+                    <div>
+                        <label for="mail">Courriel</label>
+                        <input type="email" id="mail" name="user_mail">
+                    </div>
+                    <div>
+                        <label for="msg">Message</label>
+                        <textarea id="msg" name="user_message"></textarea>
+                    </div>
+                </form>
+
+                <input class="favorite styled"
+                        type="button"
+                        value="Add to favorites">
+       
+            <h3>AUTRES PROJETS</h3>
+                <p>Une multitude de super-héros existent. Captain
+                    America pollue avec sa moto, mais les autres ?
+                    Penses-tu que ton super-héros préféré est un modèle
+                    de conduite ? Tu risques d’être surpris. Va faire un tour
+                    sur ces superbes sites!</p>
+                
+                <ul>
+                    <li><strong>Ecoflash.</strong> (Flash par Hugo Joubert)</li>
+                    <li><strong>Le Joker, un cal-vert</strong> (Joker par Sébastien Jourdain)</li>
+                    <li><strong>La main verte</strong> (Hulk par Lou Segaud)</li>
+                    <li><strong>Deathstromania</strong> (Deathstroke par Moïse Yombo)</li>
+                    <li><strong>E-oracle</strong> (Oracle par Charlotte Jeannot)</li>
+                    <li><strong>Jok'earth</strong> (Le Joker par Louis Cuenot)</li>
+                    <li><strong>Chauffe souris</strong> (Batman par Oan Côte)</li>
+                    <li><strong>Iron Rare</strong> (Iron Man par Garion Tanguy)</li>
+                    <li><strong>Eco-spider</strong> (Spiderman par Paul Semon)</li>
+                    <li><strong>Green Lantern</strong> : si "vert"  que ça? (Green Lantern par Antoine Silva Ribeiro)</li>
+                    <li><strong>L'embrasement</strong> (La torche humaine par Paul Cotogno)</li>
+                    <li><strong>GreenPanther</strong> (Black Panther par Laura Demougeot)</li>
+                </ul>
+    </main>
+
+    <footer>
+        <p>PierrePolJ<br>
+            Groupe C1</p>
+
+            <img src="assets/icones/twitter.webp" alt="Icone de Twitter">
+            <img src="assets/icones/mailto.webp" alt="Icone mail">
+            <img src="assets/icones/fb.webp" alt="Icone de Facebook">
+
+            <img src="assets/icones/logoMMI.webp" alt="Logo du MMI de Montbéliard">
+
+        <p>Projet réalisé dans le cadre d’un exercice pédagogique au
+            département MMI de Montbéliard. </p>
+    </footer>
+</body>
+</html>

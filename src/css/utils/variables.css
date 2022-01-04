@@ -1,0 +1,29 @@
+:root{
+    --f: 'Fjalla One', sans-serif ;
+    --m: 'Manjari', sans-serif ;
+
+/* Color styles */
+    --rouge: rgba(166, 38, 35, 1);
+    --noir: rgba(0, 0, 0, 1);
+    --bleu: rgba(39, 83, 108, 1);
+    --bleu-pale: rgba(120, 151, 171, 1);
+    --blanc: rgba(255, 255, 255, 1);
+    --crème: rgba(245, 245, 245, 1);
+    --gris: rgba(222, 222, 222, 1);
+    --gris-fonce: rgba(204, 204, 204, 1);
+    --iconsbleu: rgba(92, 161, 194, 1);
+
+/* Text-size styles */
+    --sous-titre: 16px;
+    --texte: 14px;
+    --legende: 11px;
+    --titre: 18px;
+    --auteur: 15px;
+    --blaz: 15px;
+    --extrait: 15px;
+    --guide: 20px;
+    --nom: 12px;
+    --p-titre: 14px;
+    --sous-cat: 18px;
+    --menu: 46px;
+}

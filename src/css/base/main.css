@@ -129,9 +129,6 @@ li{
     padding-bottom: 5px;
 }
 
-.fond{
-    background-color: var(--creme);
-}
 
 .but{
     font-size: 20px;
@@ -142,34 +139,6 @@ li{
     margin-bottom: 10px;
 }
 
-.premier{
-    width: 182px;
-    height: 29px;  
-    display:contents;
-    margin-bottom: 15px;
-  
-}
-
-.deuxieme{
-    width: 182px;
-    height: 29px;   
-    display:contents;
-    margin-bottom: 15px;
-}
-
-.troisieme{
-    width: 253px;
-    height: 29px;
-    display:contents;
-    margin-bottom: 15px; 
-}
-
-.quatrieme{
-    width: 310px;
-    height: 297px;
-    display:contents;
-    margin-bottom: 15px;
-}
 
 label{
     margin: 10px;

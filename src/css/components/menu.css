@@ -127,6 +127,25 @@
     font-size: 18px;   
     
   }
+  .menuh1{
+    
+    position: absolute;
+    width: 155px;
+    height: 47px;
+    left: 112px;
+    top: 61px;
+    line-height: 101.92%;  
+    font-size: 46px;
+    font-family: var(--m);
+    font-weight: lighter;
+    color: var(--rouge);
+    border-bottom: solid;
+    border-color: var(--noir);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
 /* 
   hr {
     border: none;

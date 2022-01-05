@@ -25,7 +25,6 @@
 
 
             <nav class="menu">
-                <!-- <div class="ligne" ></div> -->
                     <ul>
                             <li class="menu__item"><a class="menu__link" href="article1.html">Super-héros ou super-pollueur ?</a></li>
                             <li class="menu__item"><a class="menu__link" href="article2.html">La pollution de l'air : c'est quoi ?</a></li>
@@ -86,14 +85,18 @@
                     petits budgets.</p>
 
 
-                <div class="droite153">&nbsp;</div>
-                <div class="carrousel3">
-                    <div class="images153">
-                        <img id="img1" class="image153" src="public/img/illustrationsolution.webp"/>
-                        <img id="img2" class="image153" src="public/img/dessinbg.webp"/>
-                        <img id="img3" class="image153" src="public/img/stevenrogers.webp"/>
+                    <div class="carrousel">
+                        <div class="f_lm">
+                            <img id="img1" class="fi_lm" src="public/img/illustrationsolution.webp" alt="illustration de Captain America"/>
+                            <img id="img2" class="fi_lm" src="/public/img/dessinbg.webp" alt="dessin Captain America"/>
+                            <img id="img3" class="fi_lm" src="public/img/stevenrogers.webp" alt="photographie Steven Rogers"/>
+                        </div>
                     </div>
-                </div>
+                    <script>
+            
+                        carrousel3Images();
+            
+                    </script>
            
 
 
@@ -136,17 +139,19 @@
     </main>
 
     <footer>
-        <p>PierrePolJ<br>
+        <p class="nom">PierrePolJ<br>
             Groupe C1</p>
-
+        <div class="réseau_sociaux">
             <img src="assets/icones/twitter.webp" alt="Icone de Twitter">
             <img src="assets/icones/mailto.webp" alt="Icone mail">
             <img src="assets/icones/fb.webp" alt="Icone de Facebook">
-
-            <img src="assets/icones/logoMMI.webp" alt="Logo du MMI de Montbéliard">
-
-        <p>Projet réalisé dans le cadre d’un exercice pédagogique au
+        </div>
+            <img class="logommi" src="assets/icones/logoMMI.webp" alt="Logo du MMI de Montbéliard">
+<div class="textmmifooter">
+        <p class="blancfooter">Projet réalisé dans le cadre d’un exercice pédagogique au
             département MMI de Montbéliard. </p>
+
+        </div>
     </footer>
 </body>
 </html>

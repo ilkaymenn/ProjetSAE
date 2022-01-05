@@ -25,7 +25,6 @@
 
 
             <nav class="menu">
-                <!-- <div class="ligne" ></div> -->
                     <ul>
                             <li class="menu__item"><a class="menu__link" href="article1.html">Super-héros ou super-pollueur ?</a></li>
                             <li class="menu__item"><a class="menu__link" href="article2.html">La pollution de l'air : c'est quoi ?</a></li>
@@ -67,7 +66,36 @@
                     ici. Chacun peut agir à son échelle. Faites comme
                     Captain America, changez vos habitudes.</p>
 
-            <div class="fond">
+           
+                    <form>
+                        <div class="fond">
+                            <h3>ME CONTACTER</h3>
+        
+                        <label class="label">Nom</label>
+                        <input class="input" type="text"><br>
+        
+                        <label class="label">Prénom</label>
+                        <input class="input" type="text"> <br>
+        
+                        <label class="label">Courriel</label>
+                        <input class="input" type="text"> <br>
+                            
+                        <br>
+                        <label class="label">Message</label>
+                        <br>
+                        <textarea class="message"  id="Message" cols="30" rows="10"> </textarea>
+                    
+                        
+        
+        
+                        <input class="but"
+                            type="button"
+                            value="ENVOYER">
+                    </div>
+                </form>
+           
+           
+                    <!-- <div class="fond">
                 <h3>ME CONTACTER</h3>
                     <form action="/page-de-traitement" method="post">
                         <div class="premier">
@@ -92,7 +120,7 @@
                             type="button"
                             value="ENVOYER">
 
-            </div>
+            </div> -->
        
             <h3>AUTRES PROJETS</h3>
                 <p>Une multitude de super-héros existent. Captain
@@ -130,17 +158,19 @@
     </main>
 
     <footer>
-        <p>PierrePolJ<br>
+        <p class="nom">PierrePolJ<br>
             Groupe C1</p>
-
+        <div class="réseau_sociaux">
             <img src="assets/icones/twitter.webp" alt="Icone de Twitter">
             <img src="assets/icones/mailto.webp" alt="Icone mail">
             <img src="assets/icones/fb.webp" alt="Icone de Facebook">
-
-            <img src="assets/icones/logoMMI.webp" alt="Logo du MMI de Montbéliard">
-
-        <p>Projet réalisé dans le cadre d’un exercice pédagogique au
+        </div>
+            <img class="logommi" src="assets/icones/logoMMI.webp" alt="Logo du MMI de Montbéliard">
+<div class="textmmifooter">
+        <p class="blancfooter">Projet réalisé dans le cadre d’un exercice pédagogique au
             département MMI de Montbéliard. </p>
+
+        </div>
     </footer>
 </body>
 </html>

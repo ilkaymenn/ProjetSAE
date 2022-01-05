@@ -8,6 +8,7 @@
 /* componants */
 @import url("components/carrousel.css");
 @import url("components/menu.css");
+@import url("components/formulaire.css");
 
 /* layout */
 @import url("layout/header.css");

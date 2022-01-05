@@ -1,0 +1,21 @@
+.input {
+    background-color: var(--creme);
+    border-color: var(--gris);
+    border-style: solid ;
+    margin-top: 24px;
+}
+
+.label {
+    font-size: 14px;
+    font-family: var(--m);
+    color: var(--noir);
+    margin-left: 34px;
+}
+
+.message {
+    background-color: var(--creme);
+    border-color: var(--gris);
+    border-width: 2px;
+    margin-left: 34px;
+    margin-bottom: 14px;
+}

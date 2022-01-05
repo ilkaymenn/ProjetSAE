@@ -139,6 +139,7 @@ li{
     color: var(--blanc);
     margin-left: 70%;
     background-color: var(--iconsbleu);
+    margin-bottom: 10px;
 }
 
 .premier{
@@ -146,6 +147,7 @@ li{
     height: 29px;  
     display:contents;
     margin-bottom: 15px;
+  
 }
 
 .deuxieme{
@@ -176,6 +178,8 @@ label{
     font-size: 52px;
     line-height: 1.15;
     margin: 0;
+    border-color: var(--gris);
+    
 }
 
 

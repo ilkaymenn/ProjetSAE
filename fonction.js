@@ -1,10 +1,22 @@
+function bascule(cla) {
+    console.log('Appel à la fonction cacher détecté' + cla);
+    let paragraphe = document.querySelectorAll('.'+cla)
+    paragraphe.forEach(function(p,i){
+        if (p.style.display == 'none') {
+             p.style.display ='block';
+        } else {
+            p.style.display='none';
+        }
+    });
+}
+
 function carrousel3Images() {
-    var images153 = document.querySelectorAll('.image153');
+    var fi_lm = document.querySelectorAll('.fi_lm');
     let d = 2000;
     let delta = 1000;
 
-    images153.forEach(function(img,indice) {
-        img.style.zIndex = images153.length - indice;
+    fi_lm.forEach(function(img,indice) {
+        img.style.zIndex = fi_lm.length - indice;
     });
 
     let anim153 = anime.timeline({
@@ -13,9 +25,9 @@ function carrousel3Images() {
     });
 
     anim153.add({
-        targets: images153,
-        translateX: [{value: '500', duration: d},
-                     {value: '-500', duration: 0, delay: function(img,ind) {
+        targets: fi_lm,
+        translateX: [{value: '288', duration: d},
+                     {value: '-288', duration: 0, delay: function(img,ind) {
                          if (ind == 0) return (2*delta)+d;
                          if (ind == 1) return delta;
                          return 0;

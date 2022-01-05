@@ -47,7 +47,7 @@
 
   
   .menu{
-    background-color: var(--blanc);
+    background-image: url("/public/img/test.JPG");
     font-size: 18px;
     font-family: var(--m);
     color: var(--noir);
@@ -76,8 +76,7 @@
   }
   .menu ul{
     list-style: none;
-    margin: 0;
-    padding: 0;
+    position: absolute;
     font-size: 2.3rem;
     text-transform: uppercase;
   }
@@ -116,7 +115,18 @@
     font-weight: bold;
 
   }
+
+  li.menu__item{
+    padding: 10px;
+    text-transform :capitalize;
+  }
   
+  .a.menu__link{
+    font-family: var(--m);
+    font-weight: bold;
+    font-size: 18px;   
+    
+  }
 /* 
   hr {
     border: none;
@@ -125,3 +135,4 @@
   	height: 5px;
   	width: 90%
 } */
+

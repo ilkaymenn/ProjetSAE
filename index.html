@@ -79,7 +79,15 @@
                     auquel on assiste est dangereux.</p>
 
         <figure>
-            <img src="public/img/véhicules.webp" alt="Photographie de pollution causé par les véhicules">
+            <div x-data="{animation: true}" class="animationimage">
+                <div x-on:click="animation ? animation=false : animation=true;" class="blocimg" >
+                    <img x-show="animation" class="imageanime1" src="public/img/véhicules.webp" alt="Photographie de pollution causé par les véhicules">
+                </div>
+
+                <div x-on:click="animation ? animation=false : animation=true;" class="blocimg">
+                    <img x-show="!animation" class="imageanime2" src="public/img/illustrationmoto.jpg" alt="illustration des difféerentes parties polluantes d'une moto" >
+                </div>
+            </div>
             <figcaption>Image de la pollution due à la circulation routière en Asie
                         @abcnews.media</figcaption>
         </figure>

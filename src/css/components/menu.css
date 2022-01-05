@@ -1,5 +1,4 @@
 .nav-toogle{
-    /* background-color: var(--peche); */
     width: 30px;
     height: 30px;
     position: absolute;
@@ -146,12 +145,3 @@
     justify-content: center;
 
   }
-/* 
-  hr {
-    border: none;
-    border-top: 2px solid ;
-    color: var(--noir);
-  	height: 5px;
-  	width: 90%
-} */
-

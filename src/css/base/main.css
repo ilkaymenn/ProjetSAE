@@ -32,6 +32,32 @@ h3{
     padding-top: 15px;
 }
 
+.yeni{
+    font-size: 16px;
+    font-family: var(--f);
+    color: var(--blanc);
+    margin: 15px;
+    padding-top: 15px;
+    background-color: var(--rouge);
+    height: 0px;
+    width: 70px;
+    margin-left: 0px;
+}
+
+
+.gros{
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+
+.nvx{
+   text-align: center;
+   padding-top: 0px;
+   margin-top: -20px;
+   color: var(--blanc);
+}
+
 .extrait{
     font-size: 15px;
     font-family: var(--m);
@@ -49,6 +75,7 @@ h3{
 .gris{
     background-color: var(--gris);
     padding-top: 15px;
+    padding-bottom: 1px;
 }
 
 .savez{
@@ -73,16 +100,89 @@ h4{
     margin: 20px;
 }
 
+
+ul{
+    padding-top: 10px;
+    padding-left: 0px;
+}
+
 li{
     font-size: 14px;
     font-family: var(--m);
     color: var(--noir);
+    margin: 20px;
+    list-style-type: none;
 }
 
 .bleu{
     background-color: var(--bleu-pale);
+    padding-top: 1px;
+    padding-bottom: 3px;
 }
 
 .annonce{
     padding-bottom: 20px;
+}
+
+
+.annonce2{
+    padding-bottom: 5px;
+}
+
+.fond{
+    background-color: var(--creme);
+}
+
+.but{
+    font-size: 20px;
+    font-family: var(--f);
+    color: var(--blanc);
+    margin-left: 70%;
+    background-color: var(--iconsbleu);
+}
+
+.premier{
+    width: 182px;
+    height: 29px;  
+    display:contents;
+    margin-bottom: 15px;
+}
+
+.deuxieme{
+    width: 182px;
+    height: 29px;   
+    display:contents;
+    margin-bottom: 15px;
+}
+
+.troisieme{
+    width: 253px;
+    height: 29px;
+    display:contents;
+    margin-bottom: 15px; 
+}
+
+.quatrieme{
+    width: 310px;
+    height: 297px;
+    display:contents;
+    margin-bottom: 15px;
+}
+
+label{
+    margin: 10px;
+    left: 180px;
+    font-family: inherit;
+    font-size: 52px;
+    line-height: 1.15;
+    margin: 0;
+}
+
+
+hr {
+    border: none;
+    border-top: 2px solid ;
+    color: var(--iconsbleu);
+  	height: 5px;
+  	width: 90%
 }

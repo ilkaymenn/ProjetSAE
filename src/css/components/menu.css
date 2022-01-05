@@ -9,6 +9,7 @@
     align-items: center;
     justify-content: center;
     z-index: 2;
+
   }
   
   .nav-toogle-bar,
@@ -47,6 +48,10 @@
   
   .menu{
     background-color: var(--blanc);
+    font-size: 18px;
+    font-family: var(--m);
+    color: var(--noir);
+
     position: fixed;
     top: 0;
     left: 0;
@@ -58,6 +63,7 @@
     transform: translateX(100vw);
     transition: all .4s;
     z-index: 1;
+
   }
   
   .menu-open .menu{
@@ -111,11 +117,11 @@
 
   }
   
-  /* .ligne{
-    background-color: var(--noir);
-    width: 80%;
-    top: auto;
-    align-items: center;
-    height: 2px;
-    left: 0;
+/* 
+  hr {
+    border: none;
+    border-top: 2px solid ;
+    color: var(--noir);
+  	height: 5px;
+  	width: 90%
 } */
